@@ -74,8 +74,8 @@ User.find({}).remove(function() {
     password: 'test'
   }, {
     provider: 'local',
-    name: 'Reed',
-    email: 'reed@test.com',
+    name: 'reid',
+    email: 'reid@test.com',
     password: 'test'
   }, function() {
       console.log('finished populating users');
