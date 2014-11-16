@@ -6,6 +6,7 @@ angular.module('ideaboardApp')
 
     $http.get('/api/users/'+$stateParams.id).success(function (person) {
     	console.log(person);
+    	$scope.person = person;
         // $scope.people = people;
         // console.log($scope.people);
 
