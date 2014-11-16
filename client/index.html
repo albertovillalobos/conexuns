@@ -23,18 +23,22 @@
       <link rel="stylesheet" href="app/account/login/login.css">
       <link rel="stylesheet" href="app/admin/admin.css">
       <link rel="stylesheet" href="app/app.css">
+      <link rel="stylesheet" href="app/dash/dash.css">
+      <link rel="stylesheet" href="app/ideas/ideas.css">
       <link rel="stylesheet" href="app/main/main.css">
+      <link rel="stylesheet" href="app/people/people.css">
+      <link rel="stylesheet" href="app/pitch/pitch.css">
       <link rel="stylesheet" href="components/modal/modal.css">
       <!-- endinjector -->
     <!-- endbuild -->
   </head>
-  <body ng-app="ideaboardApp">
+  <body ng-app="ideaboardApp" >
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div ui-view=""></div>
+    <div ui-view="" class="full-screen"></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
@@ -75,8 +79,16 @@
           <script src="app/account/signup/signup.controller.js"></script>
           <script src="app/admin/admin.controller.js"></script>
           <script src="app/admin/admin.js"></script>
+          <script src="app/dash/dash.controller.js"></script>
+          <script src="app/dash/dash.js"></script>
+          <script src="app/ideas/ideas.controller.js"></script>
+          <script src="app/ideas/ideas.js"></script>
           <script src="app/main/main.controller.js"></script>
           <script src="app/main/main.js"></script>
+          <script src="app/people/people.controller.js"></script>
+          <script src="app/people/people.js"></script>
+          <script src="app/pitch/pitch.controller.js"></script>
+          <script src="app/pitch/pitch.js"></script>
           <script src="components/auth/auth.service.js"></script>
           <script src="components/auth/user.service.js"></script>
           <script src="components/modal/modal.service.js"></script>

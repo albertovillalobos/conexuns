@@ -42,6 +42,41 @@ User.find({}).remove(function() {
     name: 'Admin',
     email: 'admin@admin.com',
     password: 'admin'
+  }, {
+    provider: 'local',
+    name: 'Alberto',
+    email: 'alberto@test.com',
+    password: 'test'
+  }, {
+    provider: 'local',
+    name: 'Daniel',
+    email: 'daniel@test.com',
+    password: 'test'
+  }, {
+    provider: 'local',
+    name: 'Soan',
+    email: 'soan@test.com',
+    password: 'test'
+  }, {
+    provider: 'local',
+    name: 'Danette',
+    email: 'danette@test.com',
+    password: 'test'
+  }, {
+    provider: 'local',
+    name: 'Darcie',
+    email: 'darcie@test.com',
+    password: 'test'
+  }, {
+    provider: 'local',
+    name: 'Robert',
+    email: 'robert@test.com',
+    password: 'test'
+  }, {
+    provider: 'local',
+    name: 'Reed',
+    email: 'reed@test.com',
+    password: 'test'
   }, function() {
       console.log('finished populating users');
     }

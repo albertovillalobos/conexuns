@@ -1,3 +1,13 @@
+body, html, .full-screen {
+    height: 100%;
+}
+
+section {
+    margin: 0px;
+    padding: 0px;
+
+}
+
 .thing-form {
     margin: 20px 0;
 }
@@ -27,4 +37,53 @@
     padding: 30px 0;
     margin-top: 70px;
     border-top: 1px solid #E5E5E5;
+}
+
+header {
+    height: 100%;
+}
+
+.hero-unit {
+    background-image: url(../../assets/images/Conuxuns-BgImg1x1-gray-overlay.jpg); 
+    background-size: cover; 
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    background-position: middle;
+}
+
+.btn.btn-outline-inverse.btn-lg {
+    color: white;
+    border-radius: 0px;
+    border-color: white;
+}
+
+.a-margins {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.red-background {
+    background-color: #ed564b;
+}
+
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;    
+}
+
+.homewidget h3, .homewidget p {
+    color: white;
+    text-align: center;
+}
+.homewidget .glyphicon {
+    color: white;
 }

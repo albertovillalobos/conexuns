@@ -1,16 +1,58 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
 
 <header class="hero-unit" id="banner">
-  <div class="container" style="background-image: url(assets/images/Conuxuns-BgImg1x1-gray-overlay.jpg); background-size: cover; background-color: transparent; width: 100%; height: 100%;background-position: middle;">
+  <div class="container">
     <!-- <h1>'Allo, 'Allo!</h1> -->
     <!-- <p class="lead">Kick-start your next web app with Angular Fullstack</p> -->
     <!-- <h1>IdeaBoard</h1> -->
-    <center><img src="assets/images/Conexuns-WebsiteLogo-640x400-partial-white.png" class="img-responsive"></center>
+    <center>
+      <img src="assets/images/Conexuns-WebsiteLogo-640x400-partial-white.png" class="img-responsive">
+      
+      </center>
     <!-- <img src="assets/images/yeoman.png" alt="I'm Yeoman"> -->
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a href="/login" class="btn btn-outline-inverse btn-lg">Join Us</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12"></div>
+    </div>
   </div>
+
 </header>
 
-<div class="container">
+<section class=" red-background">
+  <div class="container a-margins">
+    <div class="row">
+          
+          <div class="col-sm-4 homewidget">
+            
+            <span><i class="glyphicon glyphicon-bullhorn"></i></span>
+            <h3> Pitches</h3>
+            <p> Share an amazing idea. </p>
+          </div>  
+          
+          <div class="col-sm-4 homewidget">
+            <span><i class="glyphicon glyphicon-comment"></i></span>
+            <h3>  Join the Community</h3>
+            <p> Sign up now. </p>
+          </div>  
+          
+          <div class="col-sm-4 homewidget">
+            <span><i class="glyphicon glyphicon-link"></i></span>
+            <h3> Geniuses</h3>
+            <p> Connect with the experts. </p>
+          </div>  
+          
+        </div>
+  </div>
+</section>
+
+
+
+<!-- <div class="container">
   <div class="row">
     <div class="col-lg-12">
       <h1 class="page-header">Ideas:</h1>
@@ -18,9 +60,9 @@
         <li><a href="#" tooltip="{{thing.info}}">{{thing.name}}<button type="button" class="close" ng-click="deleteThing(thing)">&times;</button></a></li>
       </ul>
     </div>
-  </div>
+  </div> -->
 
-  <form class="thing-form">
+<!--   <form class="thing-form">
     <label>Syncs in realtime across clients</label>
     <p class="input-group">
       <input type="text" class="form-control" placeholder="Add a new thing here." ng-model="newThing">
@@ -38,3 +80,4 @@
          <a href="https://github.com/DaftMonk/generator-angular-fullstack/issues?state=open">Issues</a></p>
   </div>
 </footer>
+ -->
