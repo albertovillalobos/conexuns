@@ -14,6 +14,7 @@ var UserSchema = new Schema({
   },
   archetype: String,
   image: String,
+  description: String,
   hashedPassword: String,
   provider: String,
   salt: String,
@@ -43,7 +44,10 @@ UserSchema
   .get(function() {
     return {
       'name': this.name,
-      'role': this.role
+      'role': this.role,
+      'image':this.image,
+      'description':this.description,
+      'archetype':this.archetype
     };
   });
 
