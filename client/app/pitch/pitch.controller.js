@@ -21,6 +21,7 @@ angular.module('ideaboardApp')
 			info: $scope.newIdea.pitch, 
 			hacker: $scope.newIdea.hacker, 
 			hipster: $scope.newIdea.hipster,
+			hustler: $scope.newIdea.hustler,
 			owner: $scope.me._id 
 		});
 		$scope.newIdea = '';

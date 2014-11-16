@@ -6,6 +6,8 @@ angular.module('ideaboardApp')
     $http.get('/api/ideas/').success(function (ideas) {
         $scope.ideas = ideas;
         console.log($scope.ideas);
+
     });
+
 
   });
