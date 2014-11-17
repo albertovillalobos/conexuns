@@ -5,6 +5,7 @@ angular.module('ideaboardApp')
     $scope.message = 'Hello';
     $http.get('/api/ideas/').success(function (ideas) {
         $scope.ideas = ideas;
+        $scope.ideas.reverse();
         // console.log($scope.ideas);
         for(var x=0; x<$scope.ideas.length; x++) {
         	// console.log('owner found: '+$scope.ideas[x].owner);
