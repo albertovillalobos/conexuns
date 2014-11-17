@@ -5,9 +5,15 @@ angular.module('ideaboardApp')
     $scope.awesomeThings = [];
 
     $http.get('/api/things').success(function(awesomeThings) {
+
+    $('.my-particles').particleground({
+      dotColor: '#555',
+      lineColor: '#555'
+    });      
       $scope.awesomeThings = awesomeThings;
       socket.syncUpdates('thing', $scope.awesomeThings);
     });
+
 
     $scope.addThing = function() {
       if($scope.newThing === '') {
