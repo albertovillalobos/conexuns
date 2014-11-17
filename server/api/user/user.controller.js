@@ -47,6 +47,16 @@ exports.show = function (req, res, next) {
   });
 };
 
+// Get single user profile data
+exports.listOne = function (req, res, next) {
+  var userId = req.params.id;
+
+  User.findById(userId, function (err, user) {
+    if (err) return next(err);
+    res.json(user.profile);
+  });
+};
+
 /**
  * Deletes a user
  * restriction: 'admin'

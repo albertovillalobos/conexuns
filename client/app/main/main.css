@@ -87,3 +87,12 @@ header {
 .homewidget .glyphicon {
     color: white;
 }
+
+
+/***    Navbar stuff
+
+
+***/
+.navbar-brand {
+    color: black;
+}
