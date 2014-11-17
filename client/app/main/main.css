@@ -70,11 +70,11 @@ header {
 }
 
 .red-background {
-    background-color: #ed564b;
+    background-color: #ef9521;
 }
 
 .homewidget span {
-    border: 5px solid #ef9521;;
+    border: 5px solid white;;
     background: transparent;
     width: 70px;
     height: 70px;
