@@ -34,62 +34,62 @@ var Idea = require('../api/idea/idea.model');
 
 
 
-// User.find({}).remove(function() {
-//   User.create({
-//     provider: 'local',
-//     name: 'Alberto',
-//     role: 'admin',
-//     email: 'alberto@test.com',
-//     password: 'test',
-//     image:"alberto.jpg",
-//     archetype:"hacker"
-//   }, {
-//     provider: 'local',
-//     name: 'Daniel',
-//     email: 'daniel@test.com',
-//     password: 'test',
-//     image:"daniel.jpg",
-//     archetype:"hustler"
-//   }, {
-//     provider: 'local',
-//     name: 'Soan',
-//     email: 'soan@test.com',
-//     password: 'test',
-//     image:"soan.jpg",
-//     archetype:"hustler"
-//   }, {
-//     provider: 'local',
-//     name: 'Danette',
-//     email: 'danette@test.com',
-//     password: 'test',
-//     image:"danette.jpg",
-//     archetype:"hustler"
-//   }, {
-//     provider: 'local',
-//     name: 'Darcie',
-//     email: 'darcie@test.com',
-//     password: 'test',
-//     image:"darcie.jpg",
-//     archetype:"hipster"
-//   }, {
-//     provider: 'local',
-//     name: 'Robert',
-//     email: 'robert@test.com',
-//     password: 'test',
-//     image:"robert.jpg",
-//     archetype:"hustler"
-//   }, {
-//     provider: 'local',
-//     name: 'reid',
-//     email: 'reid@test.com',
-//     password: 'test',
-//     image:"reid.jpg",
-//     archetype:"hustler"
-//   }, function() {
-//       console.log('finished populating users');
-//     }
-//   );
-// });
+User.find({}).remove(function() {
+  User.create({
+    provider: 'local',
+    name: 'Alberto',
+    role: 'admin',
+    email: 'alberto@test.com',
+    password: 'test',
+    image:"alberto.jpg",
+    archetype:"hacker"
+  }, {
+    provider: 'local',
+    name: 'Daniel',
+    email: 'daniel@test.com',
+    password: 'test',
+    image:"daniel.jpg",
+    archetype:"hustler"
+  }, {
+    provider: 'local',
+    name: 'Soan',
+    email: 'soan@test.com',
+    password: 'test',
+    image:"soan.jpg",
+    archetype:"hustler"
+  }, {
+    provider: 'local',
+    name: 'Danette',
+    email: 'danette@test.com',
+    password: 'test',
+    image:"danette.jpg",
+    archetype:"hustler"
+  }, {
+    provider: 'local',
+    name: 'Darcie',
+    email: 'darcie@test.com',
+    password: 'test',
+    image:"darcie.jpg",
+    archetype:"hipster"
+  }, {
+    provider: 'local',
+    name: 'Robert',
+    email: 'robert@test.com',
+    password: 'test',
+    image:"robert.jpg",
+    archetype:"hustler"
+  }, {
+    provider: 'local',
+    name: 'reid',
+    email: 'reid@test.com',
+    password: 'test',
+    image:"reid.jpg",
+    archetype:"hustler"
+  }, function() {
+      console.log('finished populating users');
+    }
+  );
+});
 
   // name: String,
   // info: String,
